@@ -2,14 +2,14 @@ from ppadb.client import Client
 import time
 import keyboard
 
-MIN_PIXEL = 1238
-MAX_PIXEL = 1578
-DEFAULT = 1345
+MIN_PIXEL = 1200 #Old 1238
+MAX_PIXEL = 1534 #Old 1578
+DEFAULT = 1304 #1345
 #Y_LOCATION = 318 #3D Volume
-Y_LOCATION = 409 #Trainer Difficulty
+Y_LOCATION = 415 #Trainer Difficulty
 TAP_DURATION = 200
 
-current_location = 1345
+current_location = 1304 #Old 1345
 
 def addPercent(n):
 	result = current_location + ((MAX_PIXEL - MIN_PIXEL) * n/100.0)
